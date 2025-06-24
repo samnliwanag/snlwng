@@ -1,0 +1,155 @@
+.bg-img {
+  background-image: url("roomheaderphoto.jpg");
+  min-height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: center;
+}
+
+.container0 {
+  position: center;
+  width: center;
+  padding-top: 3%;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: center;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  text-decoration: underline;
+  color: #ffefe1;
+}
+
+a:link {
+  color: #ffffff;
+  padding: 20px 30px 20px 30px;
+}
+
+a:visited {
+  color: #ffffff;
+  padding: 20px 30px 20px 30px;
+}
+
+a:hover {
+  color: #ffefe1;
+  padding: 20px 30px 20px 30px;
+  text-decoration: underline;
+}
+
+/*PALATANDAAN HUHUHU*/
+
+body{
+    background-color: #ffffff;
+    font-family: 'Poppins';
+    font-size: 20px;
+}
+
+p.rooms-first { 
+  margin: 0;
+  color: #bc5e3c;
+  font-family: 'Poppins';
+  font-size: 15px;
+}
+
+h2 {
+  position:static ;
+  margin: 0;
+  color: #bc5e3c;
+  font-family: 'Poppins-Bold';
+  font-size: 25px;
+  text-align: left;
+}  
+
+h3{
+  color: #bc5e3c;
+  font-family: 'Poppins-Bold';
+  font-size: 20px;
+  text-align: left;
+}  
+  
+p.cancellation { 
+  color: #bc5e3c;
+  font-family: 'Poppins';
+  font-size: 30px;
+}
+
+h4{
+  color: #bc5e3c;
+  font-family: 'Poppins-Bold';
+  font-size: 17px;
+  margin-bottom: 0%;
+} 
+
+li{
+  color: #3a3a3a;
+  font-family: 'Poppins';
+  font-size: 14px;
+  text-align: left;
+  list-style-type: style bullet;
+  background-size: 10px;
+  background-repeat:no-repeat;
+  background-position: left;
+  padding: 0px 0px 0px 3px
+}
+
+#special {
+  float:left; 
+  margin-bottom: 20px;
+  margin-right :60px;
+  padding-left: 5%;
+  margin-left: 0%;
+}
+
+.button {
+  background-color: #bc5e3c;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button0 {
+  background-color: white; 
+  color: #bc5e3c; 
+  border: 2px solid #bc5e3c;
+}
+
+.button0:hover {
+  background-color: #bc5e3c;
+  color: white;
+}
+
+#sticky-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.footer {
+  position:relative;
+  background-color: #bc5e3c;
+  color: white;
+  text-align: left;
+  padding: 0.3%;
+  font-family: 'Poppins';
+  font-size: 12px;
+  
+}
