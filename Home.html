@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Home</title>
+  <link rel="stylesheet" type="text/CSS" href="home.css">
+  <script defer src="js/Home.js"></script>
+</head>
+<body>
+
+<center>
+  <div class="bg-img">
+    <div class="container0">
+    <div class="topnav">
+    <a href = "Home.html">Home</a>
+    <a href = "Rooms.html">Rates</a>
+    <a href = "Facilities.html">Services & Facilities</a>
+    <a href = "Conferences.html">Conferences & Events</a>
+    <a href = "Contact.html">Contact Us</a>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  
+<br>
+<div class="container1">
+  <label for="checkin-date">Check-in Date</label>
+  <input type="date" id="checkin-date" name="checkin" required>
+  <label for="checkout-date">Check-out Date</label>
+  <input type="date" id="checkout-date" name="checkout" required>
+  <input type="submit" name="submit" value="Check Availability" class="btn btn-lg btn-primary btn-block;" button onclick="window.location.href = 'Contact.html';" required></div></form>
+  </div>
+  </div>
+
+<br>
+<br>
+<hr>
+<br>
+
+<h2> About Us </h2>
+  <div class="home-first">
+  <p class="home-first"> The <b> Coure Hotel </b> has one of the best locations in the area. The views across to the mountain range and emerald-like ocean are breathtaking. 
+  <br> Our hotel is well situated for enjoying, relaxing and exploring some of the most fun activities, pleasure and amazing scenery of tranquillity! </p>
+  </div>
+  <br>
+
+  <div class="row1">
+    <div class="column1">
+      <img src="page1a.jpg" alt="pic1" style="width:100%">
+    </div>
+    <div class="column1">
+      <img src="page1b.jpg" alt="pic2" style="width:100%">
+    </div>
+    <div class="column1">
+      <img src="page1c.jpg" alt="pic3" style="width:100%">
+    </div>
+  </div> 
+  
+<h2> <p style="font-family:Poppins"> Experience The Comfort </h2>
+  <div class="home-first">
+  <p class="home-first"> Whether you are travelling for business or pleasure, our services and facilities offered by the Coure Hotel makes it an ideal choice for your stay 
+  <br> in Calatagan, Batangas. The hotel’s comfort, thoughtful touches and a personalized service sets it apart from any other hotel, allowing you to <br> feel like being at home from your very first steps into the hotel.
+  <br></p></div>
+  <br>
+
+  <div class="row1">
+    <div class="column1">
+      <img src="page1d.jpg" alt="pic4" style="width:100%">
+    </div>
+    <div class="column1">
+      <img src="page1e.jpg" alt="pic5" style="width:100%">
+    </div>
+    <div class="column1">
+      <img src="page1f.jpg" alt="pic6" style="width:100%">
+    </div>
+  </div> 
+        
+<h2> <p style="font-family:Poppins"> Featured Offers </h2>
+  
+  <div class="container2">
+    <div class="box">
+      <h3> Summer Special</h3><br>
+        <img src="page1g.jpg">
+        <p>Get started on your sunny escape at Cuore Hotel with our special Summer Getaway offer!</p>
+        <button class="button button1" button onclick="window.location.href = 'Promotions.html';">See Details ></button>
+    </div>
+    <div class="box">
+      <h3>Big Group Savers</h3><br>
+        <img src="page1h.jpg">
+        <p>Take advantage of special rates and offers <br> available for big groups!</p>
+        <button class="button button2" button onclick="window.location.href = 'Promotions.html';">See Details ></button>
+    </div>
+    <div class="box">
+      <h3>Family Vacation Discount</h3><br>
+        <img src="page1i.jpg">
+        <p>Spend time with you family at Cuore Hotel with <br> our special Family Vacation Getaway offer!</p>
+        <button class="button button3" button onclick="window.location.href = 'Promotions.html';">See Details ></button>
+    </div>
+  </div>
+
+<br>
+<br>
+
+<form id="myForm" action="/Home.html">
+<div class="home-contact">
+  <h2 id="contact"; p style="font-family:Poppins"><div class="getintouch"> Get In Touch</h2></p>
+    <div class="container3">
+      <form action="/Home.html">
+      <div class="row">
+        <div class="col-25">
+          <label for="fname"> Name </label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Your Name" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="contactno"> Contact Number </label>
+        </div>
+        <div class="col-75">
+          <input type="tel" id="contactno" name="contactnumber" placeholder="0912 345 6789" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="email"> Email Address </label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="email" name="emailaddress" placeholder="Email Address" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Message</label>
+        </div>
+        <div class="col-75">
+          <textarea id="message" name="message" placeholder="Your Message" style="height:200px" maxlength="1000"></textarea>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <input type="submit" value="Submit">
+      </div>
+      </form>
+    </div>
+    <script>
+      document.getElementById("myForm").onsubmit = function() {myFunction()};
+      
+      function myFunction() {
+        alert("Your inquiry has been submitted successfully.Thank you.");
+      }
+
+      </script>      
+
+<div class="container4">
+    <img src="footer.jpg" alt="footer">
+    <div class="centered2">
+    <br><b><p style="font-size:30px"> Testimonial <br></b></p>
+    <br><i><p style="font-size:20px"> " Had a very relaxed stay. Great service amazing Spa.
+    <br>Lovely place, calming greenery, serene sunset view across the sea.
+    <br>What more could one ask for? We will be back again hopefully. "</i></p>
+    <br><p style="font-size:20px"><b>Juana Dela Cruz</b>
+    <br>Klook User </p><br><br><br>
+  </div>
+
+<div class="footer">
+  <p>&nbsp&nbsp © All Rights Reserved 2024. Samantha Nichole O. Liwanag. Final Test for WD1-2024-1-47 Web Design Class.</p>
+  </div>
+  </div>
+
+</div>
+</center>
+</body>
+</html>

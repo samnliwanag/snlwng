@@ -1,0 +1,196 @@
+.bg-img {
+  background-image: url("eventsheaderphoto.jpg");
+  min-height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: center;
+}
+
+.container0 {
+  position: center;
+  width: center;
+  padding-top: 3%;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: center;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  text-decoration: underline;
+  color: #ffefe1;
+}
+
+a:link {
+  color: #ffffff;
+  padding: 20px 30px 20px 30px;
+}
+
+a:visited {
+  color: #ffffff;
+  padding: 20px 30px 20px 30px;
+}
+
+a:hover {
+  color: #ffefe1;
+  padding: 20px 30px 20px 30px;
+  text-decoration: underline;
+}
+
+body{
+    background-color: #ffffff;
+    font-family: 'Poppins';
+    font-size: 20px;
+}  
+
+h2 {
+  position:static ;
+  padding: 2%;
+  margin: 0;
+  color: #bc5e3c;
+  font-family: 'Poppins-Bold';
+  font-size: 35px;
+}  
+   h2.home-contact {
+      background-color: #fdf2de;
+      border-color: #362007;
+      border-top-style: dashed;
+      border-bottom-style: dashed;
+      border-left-color: #fdf2de;
+      border-width: 1px;
+      color: #362007;
+      font-family: 'Poppins-Black';
+      font-size: 15px;
+}
+  
+h3{
+  color: #6A3513;
+  font-family: 'Poppins-Bold';
+  font-size: 20px;
+} 
+
+   p.second { 
+    text-align: center;
+    background-color: #CCCCCC;
+    border-color: #800000;
+    border-style: double;
+    border-width: 20px;
+    color: #0000CC;
+    padding: 10px;
+    margin: 50px;
+  
+}
+
+li{
+  background-image:url(core-value.png);
+  font-family: 'arial, sans-serif';
+  font-size: 15px;
+  list-style: none;
+  background-size: 20px;
+  background-repeat:no-repeat;
+  background-position: left;
+  margin:0;
+  padding: 10px 10px 10px 30px
+}
+
+h3{
+  color: #bc5e3c;
+  font-family: 'Poppins-Bold';
+  font-size: 25px;
+} 
+
+p.facilities-first { 
+color: #3a3a3a;
+text-align: justify ;
+padding-right: 4% ;
+padding-left: 4% ;
+font-family: 'Poppins';
+font-size: 15px;
+align-content: center;
+}
+
+p.cancellation { 
+color: #6A3513;
+font-family: 'Poppins';
+font-size: 10px;
+
+}
+
+input[type=booknow] {
+background-color: #6A3513;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+color: #ffffff;
+font-family: 'Poppins';
+margin-bottom: 6px;
+}
+
+.button {
+  background-color: #bc5e3c; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button0 {
+  background-color: white; 
+  color: #bc5e3c; 
+  border: 2px solid #bc5e3c;
+}
+
+.button0:hover {
+  background-color: #bc5e3c;
+  color: white;
+}
+
+#special {
+float:left; 
+margin-right :50px;
+padding-left: 4%;
+align-items: center;
+}
+
+#special2 {
+  float:right ; 
+  margin-right :50px;
+  padding-left: 4%;
+  align-self: auto;
+  }
+
+#sticky-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.footer {
+  position:relative;
+  background-color: #bc5e3c;
+  color: white;
+  text-align: left;
+  padding: 0.3%;
+  font-family: 'Poppins';
+  font-size: 12px;
+  
+}
